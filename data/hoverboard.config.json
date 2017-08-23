@@ -1,8 +1,8 @@
 {
   "basepath": "/",
   "url": "https://hoverboard-v2-dev.firebaseapp.com/",
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2017-10-01T09:00:00+05:30",
+  "endDate": "2017-10-01T18:00:00+05:30",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
@@ -19,8 +19,8 @@
   },
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
+    "name": "GDG Baroda",
+    "twitter": "gdgbaroda",
     "blog": "https://medium.com/gdg-lviv",
     "url": "http://lviv.gdg.org.ua/"
   },
@@ -59,7 +59,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "The biggest Google tech conference in CEE. All about Android, Web, and Cloud.",
+      "description": "The biggest Google tech conference in Baroda. All about Android, Web, and Cloud.",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"

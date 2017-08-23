@@ -104,6 +104,14 @@
                 animation-name: fadeInTracksCount;
             }
 
+            .custom-date {
+                font-size: 50px;
+                font-weight: 200;
+            }
+             .custom-item {
+                 font-size: 25px;
+             }
+
             @media (min-width: 868px) {
 
                 .container {
@@ -168,48 +176,65 @@
 
             <div class="statistics-block" flex vertical>
 
-                <div class="statistics-row" flex
-                                   layout
-                                   horizontal
-                                   justified>
-
-                    <div class="count-info attendees-count" layout horizontal>
-                        <span class="icon" layout vertical center>
-                            <iron-icon class="big-icon" icon="hoverboard:people"></iron-icon>
-                            <span class="icon-label">{$ aboutBlock.statisticsBlock.attendees.label $}</span>
-                        </span>
-                        <span class="numbers">{$ aboutBlock.statisticsBlock.attendees.number $}</span>
-                    </div>
-
-                    <div class="count-info days-count" layout horizontal>
-                        <span class="icon" layout vertical center>
-                            <iron-icon class="big-icon" icon="hoverboard:calendar"></iron-icon>
-                            <span class="icon-label">{$ aboutBlock.statisticsBlock.days.label $}</span>
-                        </span>
-                        <span class="numbers">{$ aboutBlock.statisticsBlock.days.number $}</span>
-                    </div>
+                <div class="statistics-row" flex layout vertical justified>
+                    <h1 class="custom-date">
+                        <iron-icon class="big-icon" icon="hoverboard:calendar"></iron-icon>
+                        1st October 2017
+                    </h1>
+                </div>
+                <!--<div class="statistics-row" flex layout horizontal center>-->
+                    <!--<h1 class="custom-item">8 Sessions</h1>-->
+                    <!--<h1 class="custom-item">150 Attendees</h1>-->
+                <!--</div>-->
+                <div class="statistics-row" flex layout vertical justified>
+                    <h1 class="custom-item">
+                        <iron-icon class="big-icon" icon="hoverboard:location"></iron-icon>
+                        Hotel Suba Elite, Baroda
+                    </h1>
                 </div>
 
-                <div class="statistics-row" flex
-                                   layout
-                                   horizontal
-                                   justified>
-                    <div class="count-info sessions-count" layout horizontal>
-                        <span class="icon" layout vertical center>
-                            <iron-icon class="big-icon" icon="hoverboard:microphone"></iron-icon>
-                            <span class="icon-label">{$ aboutBlock.statisticsBlock.sessions.label $}</span>
-                        </span>
-                        <span class="numbers">{$ aboutBlock.statisticsBlock.sessions.number $}</span>
-                    </div>
+                <!--<div class="statistics-row" flex-->
+                                   <!--layout-->
+                                   <!--horizontal-->
+                                   <!--justified>-->
 
-                    <div class="count-info tracks-count" layout horizontal>
-                        <span class="icon" layout vertical center>
-                            <iron-icon class="big-icon" icon="hoverboard:tracks"></iron-icon>
-                            <span class="icon-label">{$ aboutBlock.statisticsBlock.tracks.label $}</span>
-                        </span>
-                        <span class="numbers">{$ aboutBlock.statisticsBlock.tracks.number $}</span>
-                    </div>
-                </div>
+                    <!--<div class="count-info attendees-count" layout horizontal>-->
+                        <!--<span class="icon" layout vertical center>-->
+                            <!--<iron-icon class="big-icon" icon="hoverboard:people"></iron-icon>-->
+                            <!--<span class="icon-label">{$ aboutBlock.statisticsBlock.attendees.label $}</span>-->
+                        <!--</span>-->
+                        <!--<span class="numbers">{$ aboutBlock.statisticsBlock.attendees.number $}</span>-->
+                    <!--</div>-->
+
+                    <!--<div class="count-info days-count" layout horizontal>-->
+                        <!--<span class="icon" layout vertical center>-->
+                            <!--<iron-icon class="big-icon" icon="hoverboard:calendar"></iron-icon>-->
+                            <!--<span class="icon-label">{$ aboutBlock.statisticsBlock.days.label $}</span>-->
+                        <!--</span>-->
+                        <!--<span class="numbers">{$ aboutBlock.statisticsBlock.days.number $}</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="statistics-row" flex-->
+                                   <!--layout-->
+                                   <!--horizontal-->
+                                   <!--justified>-->
+                    <!--<div class="count-info sessions-count" layout horizontal>-->
+                        <!--<span class="icon" layout vertical center>-->
+                            <!--<iron-icon class="big-icon" icon="hoverboard:microphone"></iron-icon>-->
+                            <!--<span class="icon-label">{$ aboutBlock.statisticsBlock.sessions.label $}</span>-->
+                        <!--</span>-->
+                        <!--<span class="numbers">{$ aboutBlock.statisticsBlock.sessions.number $}</span>-->
+                    <!--</div>-->
+
+                    <!--<div class="count-info tracks-count" layout horizontal>-->
+                        <!--<span class="icon" layout vertical center>-->
+                            <!--<iron-icon class="big-icon" icon="hoverboard:tracks"></iron-icon>-->
+                            <!--<span class="icon-label">{$ aboutBlock.statisticsBlock.tracks.label $}</span>-->
+                        <!--</span>-->
+                        <!--<span class="numbers">{$ aboutBlock.statisticsBlock.tracks.number $}</span>-->
+                    <!--</div>-->
+                <!--</div>-->
 
             </div>
 

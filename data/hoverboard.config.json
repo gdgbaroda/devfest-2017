@@ -62,7 +62,7 @@
       "description": "The biggest Google tech conference in Baroda. All about Android, Web, and Cloud.",
       "background": {
         "color": "#673ab7",
-        "image": "/images/backgrounds/home.jpg"
+        "image": "/images/backgrounds/gdg_baroda_backdrop.jpg"
       },
       "fontColor": "#FFF"
     },
@@ -104,18 +104,18 @@
     }
   },
   "location": {
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "short": "Baroda, Gujarat, IN",
+    "address": "Hotel Suba Elite, Baroda",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 22.320508,
+      "longitude": 73.188406,
+      "zoom": 15
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 22.320,
+      "longitude": 73.186
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Hotel Suba Elite is right at the heart of the city, Fatehgunj, and is close to the railway and state transport depots."
   },
   "mediaQueries": {
     "xs": {

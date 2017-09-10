@@ -1,6 +1,6 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-v2-dev.firebaseapp.com/",
+  "url": "https://gdg-baroda-devfest-2017.firebaseapp.com/",
   "startDate": "2017-10-01T09:00:00+05:30",
   "endDate": "2017-10-01T18:00:00+05:30",
   "analytics": {
@@ -10,12 +10,12 @@
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
-    "authDomain": "hoverboard-experimental.firebaseapp.com",
-    "databaseURL": "https://hoverboard-experimental.firebaseio.com",
-    "projectId": "hoverboard-experimental",
-    "storageBucket": "hoverboard-experimental.appspot.com",
-    "messagingSenderId": "1088172422905"
+    "apiKey": "AIzaSyDGhdmgHrUXk-yLO6f3uDo1-0Ewl7ql5h8",
+    "databaseURL": "https://gdg-baroda-devfest-2017.firebaseio.com",
+    "storageBucket": "gdg-baroda-devfest-2017.appspot.com",
+    "authDomain": "gdg-baroda-devfest-2017.firebaseapp.com",
+    "messagingSenderId": "944146066345",
+    "projectId": "gdg-baroda-devfest-2017"
   },
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
   "organizer": {
@@ -35,11 +35,6 @@
       "route": "home",
       "permalink": "/",
       "title": "Home"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "title": "Blog"
     },
     {
       "route": "schedule",

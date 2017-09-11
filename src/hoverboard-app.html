@@ -309,7 +309,7 @@
                 <a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.title $}</a>
               </paper-tab>
               {% endfor %}
-              <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+              <!--<paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>-->
             </paper-tabs>
 
             </paper-menu-button>
@@ -428,21 +428,21 @@
                   <!--fit fixed-top></video-dialog>-->
 
 
-    <speaker-details
-      id="speakerDialog"
-      opened="[[dialogs.speaker.isOpened]]"
-      speaker="[[dialogs.speaker.data]]"
-      with-backdrop="[[viewport.isTabletPlus]]"
-      no-cancel-on-outside-click="[[viewport.isPhone]]"
-    ></speaker-details>
+    <!--<speaker-details-->
+      <!--id="speakerDialog"-->
+      <!--opened="[[dialogs.speaker.isOpened]]"-->
+      <!--speaker="[[dialogs.speaker.data]]"-->
+      <!--with-backdrop="[[viewport.isTabletPlus]]"-->
+      <!--no-cancel-on-outside-click="[[viewport.isPhone]]"-->
+    <!--&gt;</speaker-details>-->
 
-    <session-details
-      id="sessionDialog"
-      opened="[[dialogs.session.isOpened]]"
-      session="[[dialogs.session.data]]"
-      with-backdrop="[[viewport.isTabletPlus]]"
-      no-cancel-on-outside-click="[[viewport.isPhone]]"
-    ></session-details>
+    <!--<session-details-->
+      <!--id="sessionDialog"-->
+      <!--opened="[[dialogs.session.isOpened]]"-->
+      <!--session="[[dialogs.session.data]]"-->
+      <!--with-backdrop="[[viewport.isTabletPlus]]"-->
+      <!--no-cancel-on-outside-click="[[viewport.isPhone]]"-->
+    <!--&gt;</session-details>-->
 
     <subscribe-dialog
       id="subscribeDialog"

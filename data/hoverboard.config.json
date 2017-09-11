@@ -30,7 +30,7 @@
     "backgroundColor": "#673AB7"
   },
   "hashtag": "DevFest17",
-  "navigation": [
+  "navigation_backup": [
     {
       "route": "home",
       "permalink": "/",
@@ -100,17 +100,17 @@
   },
   "location": {
     "short": "Baroda, Gujarat, IN",
-    "address": "Hotel Suba Elite, Baroda",
+    "address": "Hotel Express Towers, Baroda",
     "pointer": {
-      "latitude": 22.320508,
-      "longitude": 73.188406,
+      "latitude": 22.310311,
+      "longitude": 73.169152,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 22.320,
-      "longitude": 73.186
+      "latitude": 22.3091022,
+      "longitude": 73.17126
     },
-    "description": "Hotel Suba Elite is right at the heart of the city, Fatehgunj, and is close to the railway and state transport depots."
+    "description": "Hotel Express Towers is right at the heart of the city, Alkapuri, and is close to the railway and state transport depots."
   },
   "mediaQueries": {
     "xs": {

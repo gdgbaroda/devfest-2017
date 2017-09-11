@@ -105,16 +105,14 @@ const sessionsReducer = (state = initialState.sessions, action) => {
   switch (action.type) {
     case FETCH_SESSIONS_LIST:
     case UPDATE_SESSIONS:
-      return {
-        ...state,
+      return Object.assign({}, state, {
         list: action.list
-      };
+      });
     case FETCH_USER_FEATURED_SESSIONS:
     case SET_USER_FEATURED_SESSIONS:
-      return {
-        ...state,
-        featured: action.featuredSessions
-      };
+      return Object.assign({}, state, {
+        featured: action.featuredSessions || {}
+      });
     default:
       return state;
   }
@@ -172,6 +170,18 @@ const toastReducer = (state = initialState.toast, action) => {
       return action.toast;
     case HIDE_TOAST:
       return initialState.toast;
+    default:
+      return state;
+  }
+};
+
+const notificationsReducer = (state = initialState.notifications, action) => {
+  switch (action.type) {
+    case UPDATE_NOTIFICATIONS_STATUS:
+      return Object.assign({}, state, {
+        status: action.status,
+        token: action.token
+      });
     default:
       return state;
   }

@@ -38,6 +38,10 @@ const routingActions = {
       type: SET_SUB_ROUTE,
       subRoute
     });
+  },
+  setLocation: url => {
+    window.history.pushState({}, '', url);
+    Polymer.Base.fire('location-changed', {}, { node: window });
   }
 };
 
@@ -71,11 +75,10 @@ const toastActions = {
     const duration = toast.duration || 5000;
     store.dispatch({
       type: SHOW_TOAST,
-      toast: {
-        ...toast,
+      toast: Object.assign({}, toast, {
         duration,
         visible: true
-      }
+      })
     });
 
     clearTimeout(toastHideTimeOut);
@@ -160,23 +163,18 @@ const speakersActions = {
             if (sessions[key].speakers) {
               sessions[key].speakers.map(id => {
                 if (speakers[id]) {
-                  const session = {
-                    ...sessions[key],
+                  const session = Object.assign({}, sessions[key], {
                     id: key
-                  };
-                  updatedSpeakers[id] = {
-                    ...speakers[id],
+                  });
+                  updatedSpeakers[id] = Object.assign({}, speakers[id], {
                     sessions: speakers[id].sessions ? [...speakers[id].sessions, session] : [session]
-                  };
+                  });
                 }
               });
             }
           }
 
-          const list = {
-            ...speakers,
-            ...updatedSpeakers
-          };
+          const list = Object.assign({}, speakers, updatedSpeakers);
 
           store.dispatch({
             type: FETCH_SPEAKERS_LIST,
@@ -336,6 +334,7 @@ const userActions = {
         }
 
         helperActions.storeUser(signInObject.user);
+        notificationsActions.getToken(true);
       });
   },
 
@@ -423,6 +422,111 @@ const subscribeActions = {
       type: SUBSCRIBE,
       subscribed: false
     });
+  }
+};
+
+let messaging;
+const notificationsActions = {
+  initializeMessaging: () => {
+    return new Promise(resolve => {
+      messaging = firebase.messaging();
+      messaging.onMessage(({ notification }) => {
+        toastActions.showToast({
+          message: `${notification.title} ${notification.body}`,
+          action: {
+            title: '{$ notifications.toast.title $}',
+            callback: () => {
+              routingActions.setLocation(notification.click_action);
+            }
+          }
+        });
+      });
+      messaging.onTokenRefresh(() => {
+        notificationsActions.getToken(true);
+      });
+      resolve(messaging);
+    });
+  },
+  requestPermission: () => {
+    return messaging.requestPermission()
+      .then(() => {
+        notificationsActions.getToken(true);
+      })
+      .catch(error => {
+        console.log('Unable to get permission to notify.', error);
+        store.dispatch({
+          type: UPDATE_NOTIFICATIONS_STATUS,
+          status: NOTIFICATIONS_STATUS.DENIED
+        });
+      });
+  },
+
+  getToken: subscribe => {
+    return messaging.getToken()
+      .then(currentToken => {
+        if (currentToken) {
+          const state = store.getState();
+          const subscribersRef = firebase.database().ref(`/notifications/subscribers/${currentToken}`);
+          const subscribersPromise = subscribersRef.once('value');
+          const userUid = state.user && (state.user.uid || null);
+
+          let userSubscriptionsPromise = Promise.resolve(null);
+          let userSubscriptionsRef;
+          if (userUid) {
+            userSubscriptionsRef = firebase.database().ref(`/notifications/users/${userUid}/${currentToken}`);
+            userSubscriptionsPromise = userSubscriptionsRef.once('value');
+          }
+
+          Promise.all([subscribersPromise, userSubscriptionsPromise])
+            .then(([subscribersSnapshot, userSubscriptionsSnapshot]) => {
+              const isDeviceSubscribed = subscribersSnapshot.val();
+              const isUserSubscribed = userSubscriptionsSnapshot ? userSubscriptionsSnapshot.val() : false;
+
+              if (isDeviceSubscribed) {
+                store.dispatch({
+                  type: UPDATE_NOTIFICATIONS_STATUS,
+                  status: NOTIFICATIONS_STATUS.GRANTED,
+                  token: currentToken
+                });
+                if (userUid && !isUserSubscribed) {
+                  userSubscriptionsRef.set(userUid);
+                }
+              } else if (!isDeviceSubscribed && subscribe) {
+                subscribersRef.set(true);
+                userUid && userSubscriptionsRef.set(true);
+                store.dispatch({
+                  type: UPDATE_NOTIFICATIONS_STATUS,
+                  status: NOTIFICATIONS_STATUS.GRANTED,
+                  token: currentToken
+                });
+              }
+            });
+        } else {
+          store.dispatch({
+            type: UPDATE_NOTIFICATIONS_STATUS,
+            status: Notification.permission,
+            token: null
+          });
+        }
+      })
+      .catch(() => {
+        store.dispatch({
+          type: UPDATE_NOTIFICATIONS_STATUS,
+          status: NOTIFICATIONS_STATUS.DENIED,
+          token: null
+        });
+      });
+  },
+
+  unsubscribe: token => {
+    return messaging.deleteToken(token)
+      .then(() => {
+        store.dispatch({
+          type: UPDATE_NOTIFICATIONS_STATUS,
+          status: NOTIFICATIONS_STATUS.DEFAULT,
+          token: null
+        });
+      });
   }
 };
 

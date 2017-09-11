@@ -75,11 +75,14 @@
 
     window.ENV = '{$ environment $}';
     window.PREFIX = '{$ prefix $}';
+    window.Polymer = {rootPath: '{$ basepath $}'};
 
     // Load and register pre-caching Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register(`${document.querySelector('base').href}service-worker.js`);
+        navigator.serviceWorker.register(`service-worker.js`, {
+          scope: Polymer.rootPath
+        });
       });
     }
 
@@ -102,6 +105,7 @@
           databaseURL: '{$ firebase.databaseURL $}',
           projectId: '{$ firebase.projectId $}',
           storageBucket: '{$ firebase.storageBucket $}',
+          messagingSenderId: '{$ firebase.messagingSenderId $}'
         });
       });
 
@@ -117,7 +121,6 @@
       font-size: 16px;
       line-height: 1.5;
       min-height: 100vh;
-      background-color: #FAFAFA;
     }
     /* styling for render while resources are loading */
 

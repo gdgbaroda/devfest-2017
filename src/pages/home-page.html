@@ -8,6 +8,7 @@
 <link rel="import" href="../elements/subscribe-block.html">
 <link rel="import" href="../elements/gallery-block.html">
 <link rel="import" href="../elements/map-block.html">
+<link rel="import" href="../elements/about-organizer-block.html">
 
 <dom-module id="home-page">
   <template>
@@ -28,6 +29,11 @@
     <!--<latest-posts-block></latest-posts-block>-->
     <!--<gallery-block></gallery-block>-->
     <!--<tickets-block></tickets-block>-->
+    <featured-videos></featured-videos>
+    <about-organizer-block></about-organizer-block>
+    <latest-posts-block></latest-posts-block>
+    <gallery-block></gallery-block>
+    <tickets-block></tickets-block>
     <map-block></map-block>
     <partners-block></partners-block>
   </template>
@@ -40,7 +46,7 @@
       }
     }
 
-    customElements.define(HomePage.is, HomePage);
+    window.customElements.define(HomePage.is, HomePage);
 
   </script>
 </dom-module>

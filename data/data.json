@@ -1,0 +1,721 @@
+{
+  "blog": {
+    "list": {
+      "c4p": {
+        "backgroundColor": "#3647a5",
+        "brief": "GDG DevFest Ukraine was announced, for the sixth year in a row, the conference will bring together 900 developers, managers and...",
+        "image": "/images/posts/c4p.jpg",
+        "published": "2017-02-12",
+        "source": "/data/posts/2017-02-12-c4p.md",
+        "title": "We're looking for speakers"
+      },
+      "dfua-summary": {
+        "backgroundColor": "#ffc107",
+        "brief": "GDG DevFest Ukraine 2016",
+        "image": "/images/posts/summary16_1.jpg",
+        "published": "2016-09-10",
+        "source": "/data/posts/2016-09-10-dfua-summary.md",
+        "title": "DevFest Ukraine rocked - SUMMARY"
+      },
+      "dfua17-announced": {
+        "backgroundColor": "#2196F3",
+        "brief": "It is official. GDG DevFest Ukraine 2017 is going to take place in Lviv, on October 13-14.",
+        "image": "/images/posts/dfua17-announced.jpg",
+        "published": "2017-02-06",
+        "source": "/data/posts/2017-02-06-dfua17-announced.md",
+        "title": "Announcing GDG DevFest Ukraine 2017"
+      },
+      "thank-you": {
+        "backgroundColor": "#5a7785",
+        "brief": "Our team wants to thank one more time our partners, who made GDG DevFest Ukraine 2016 possible...",
+        "image": "/images/posts/thankyou_2.jpg",
+        "published": "2016-09-29",
+        "source": "/data/posts/2016-09-29-thank-you.md",
+        "title": "Thank you all for your support"
+      },
+      "what-to-do-in-lviv": {
+        "backgroundColor": "#009688",
+        "brief": "Ukrainian city of Lviv is no doubt one of the most charming and yet not well-known parts of Ukraine.",
+        "image": "/images/posts/lviv1.jpg",
+        "published": "2016-08-20",
+        "source": "/data/posts/2016-08-20-what-to-do-in-lviv.md",
+        "title": "What to do in Lviv"
+      }
+    }
+  },
+  "featuredSessions": {
+    "9eZwm8qA5pYXzUSp1rN9ExS1aFq2": {
+      "109": true,
+      "120": true,
+      "139": true
+    },
+    "jfVBrDJj8qP7I1BmchxeMVGMVHd2": {
+      "101": true,
+      "102": true,
+      "103": true,
+      "104": true,
+      "105": true,
+      "106": true,
+      "107": true,
+      "108": true,
+      "109": true,
+      "110": true,
+      "111": true,
+      "112": true,
+      "113": true,
+      "114": true,
+      "115": true,
+      "116": true,
+      "117": true,
+      "118": true,
+      "119": true,
+      "120": true,
+      "121": true,
+      "122": true,
+      "123": true,
+      "124": true,
+      "125": true,
+      "126": true,
+      "127": true,
+      "128": true,
+      "129": true,
+      "131": true,
+      "132": true,
+      "133": true,
+      "134": true,
+      "135": true,
+      "136": true,
+      "137": true,
+      "139": true,
+      "140": true
+    },
+    "qn5yG3hz93gLtOtiMxPMTGAWuI13": {
+      "132": true,
+      "139": true
+    }
+  },
+  "gallery": ["https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/1.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/2.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/3.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/4.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/5.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/6.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/7.jpg?alt=media", "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/8.jpg?alt=media"],
+  "notifications": {
+    "messages": {
+      "112": {
+        "body": "text",
+        "title": "Hello"
+      },
+      "24234": {
+        "body": "4534",
+        "title": "fdgfd"
+      },
+      "4325435": {
+        "body": "fdsfds",
+        "title": "324567"
+      }
+    }
+  },
+  "partners": [{
+    "logos": [{
+      "logoUrl": "../images/logos/gdg-lviv.svg",
+      "name": "GDG Lviv",
+      "url": "https://plus.google.com/102444623953913144164"
+    }],
+    "title": "Template Creator"
+  }, {
+    "logos": [{
+      "logoUrl": "../images/logos/google.svg",
+      "name": "Google",
+      "url": "https://www.google.com.ua/intl/en/about/"
+    }],
+    "title": "General Partner"
+  }],
+  "schedule": {
+    "2017-10-01": {
+      "dateReadable": "1st October",
+      "timeslots": [
+        {
+          "startTime": "09:30",
+          "endTime": "10:45",
+          "sessions": [{
+            "items": [801]
+          }]
+        },
+        {
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "sessions": [{
+            "items": [900]
+          }]
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:40",
+          "sessions": [{
+            "items": [901]
+          }]
+        },
+        {
+          "startTime": "11:40",
+          "endTime": "12:00",
+          "sessions": [{
+            "items": [701]
+          }]
+        },
+        {
+          "endTime": "02:15",
+          "sessions": [{
+            "items": [802]
+          }],
+          "startTime": "01:30"
+        },
+        {
+          "endTime": "11:00",
+          "sessions": [{
+            "items": [901]
+          }],
+          "startTime": "10:45"
+        },
+        {
+          "endTime": "11:00",
+          "sessions": [{
+            "items": [902]
+          }],
+          "startTime": "11:00"
+        }
+      ],
+      "tracks": [{
+        "title": "Main Hall"
+      }]
+    }
+  },
+  "sessions": {
+    "801": {
+      "description": "Get your coffee, enjoy talking with people around",
+      "icon": "registration",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title": "Registration & Breakfast"
+    },
+    "802": {
+      "description": "Grab your lunch, have some chit-chat with people around !",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title": "Lunch"
+    },
+    "900": {
+      "complexity": "Beginner",
+      "description": "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
+      "language": "English",
+      "presentation": "https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform",
+      "speakers": ["curos"],
+      "tags": ["Cloud"],
+      "title": "Windows and .NET on Google Cloud Platform "
+    },
+    "901": {
+      "complexity": "Beginner",
+      "description": "Do you remember the game Simon says from the 80s? I don’t know about you, but I know many that spent hours trying to press those specific sequences of red, green, blue and yellow buttons in the correct order. But why play on your own? We’ve implemented a gRPC server that allows you to play Simon with other players over the internet!\n\nIn this workshop we will dive into the toolset and libraries to build your very own Simon Says client for this server. We will have a message description in Protocol Buffers format and some stub code in several languages ready for you to play with. The goal for this workshop is for you to have a working client that you can use to play (and beat!) other attendees of the workshop.",
+      "language": "English",
+      "speakers": ["curos"],
+      "tags": ["Cloud"],
+      "title": "Hands-on gRPC experience building your own multiplayer game client"
+    },
+    "902": {
+      "complexity": "Intermediate",
+      "description": "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
+      "language": "English",
+      "presentation": "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
+      "speakers": ["curos"],
+      "tags": ["Android"],
+      "title": "Knock knock! Who's there? Doze."
+    }
+  },
+  "speakers": {
+    "curos": {
+      "bio": "Manan is a passionate full-stack developer and a community and  open source enthusiast. He has contributed to the development of multiple open source projects, including Laravel. He is also the technical cofounder of MotionDen, Inc. (https://motionden.com). With years of experience, he has become fluent in both web and mobile technologies. He also an organizer for GDG Baroda along with Rahul Banker.",
+      "title": "CTO",
+      "company": "MotionDen, Inc.",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Manan Jadhav",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Fcuros.jpg?alt=media",
+      "shortBio": "CTO @ MotionDen",
+      "socials": [
+        {
+          "icon": "facebook",
+          "link": "facebook.com/jadhavmanan",
+          "name": "Facebook"
+        },
+        {
+          "icon": "github",
+          "link": "github.com/curosmj",
+          "name": "GitHub"
+        },
+        {
+          "icon": "website",
+          "link": "curos.in",
+          "name": "Website / Blog"
+        }
+      ]
+    },
+    "rahul": {
+      "bio": "",
+      "title": "Co-founder",
+      "company": "WP Partners",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Rahul Banker",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Frahul.jpg?alt=media",
+      "shortBio": "Organizer @ GDG Baroda",
+      "socials": [
+        {
+          "icon": "facebook",
+          "link": "facebook.com/bankerrahul",
+          "name": "Facebook"
+        }
+      ]
+    },
+    "hardik": {
+      "bio": "Digital Consultant. Helping brands and individuals deliver mobile first and cloud enabled experiences.",
+      "title": "Founder",
+      "company": "APPMATTIC",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Hardik Mistry",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Fhardik.jpg?alt=media",
+      "shortBio": "Founder @ APPMATTIC",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "twitter.com/mistryhardik05",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "mamta": {
+      "bio": "An Android freak with the passion of sharing and learning! I love to learn new technologies and expand new horizons. I also like networking as it helps me to meet new people and can learn something from them. I believe everyone has something different that we can learn from them. Passion has only driven me this far. ",
+      "title": "Software Engineer",
+      "company": "MasterCard",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Mamta Gelanee",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Fmamta.jpg?alt=media",
+      "shortBio": "Software Engineer at MasterCard",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "twitter.com/MamataGelanee",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "github.com/mamatagelanee07",
+          "name": "GitHub"
+        },
+        {
+          "icon": "linkedin",
+          "link": "linkedin.com/in/mamata-gelanee-7b944067",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "website",
+          "link": "andigeeky.com",
+          "name": "Blog"
+        }
+      ]
+    },
+    "sneh": {
+      "bio": "An enthusiast in tech, passionate about Android and Machine Learning, knows a lot of random tech stuff & FOSS believer. Android Developer at Simform Solutions.",
+      "title": "Android Developer",
+      "company": "Simform Solutions",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Sneh Pandya",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Fsneh.jpg?alt=media",
+      "shortBio": "Android Developer at Simform Solutions",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/@SnehPandya18",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/SnehPandya18",
+          "name": "GitHub"
+        },
+        {
+          "icon": "facebook",
+          "link": "https://www.facebook.com/SnehPandya18",
+          "name": "Facebook"
+        },
+        {
+          "icon": "website",
+          "link": "andigeeky.com",
+          "name": "Blog"
+        }
+      ]
+    },
+    "hardip": {
+      "bio": "",
+      "title": " ",
+      "company": " ",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Baroda, India",
+      "featured": true,
+      "name": "Hardip Patel",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/gdg-baroda-devfest-2017.appspot.com/o/speakers%2Fhardip.jpg?alt=media",
+      "shortBio": " ",
+      "socials": [
+        {
+          "icon": "facebook",
+          "link": "facebook.com/AboutHardipPatel",
+          "name": "Facebook"
+        },
+        {
+          "icon": "github",
+          "link": "github.com/knightkill",
+          "name": "GitHub"
+        }
+      ]
+    }
+  },
+  "subscribers": {
+    "mana": {
+      "email": "mana",
+      "firstName": "Manan",
+      "lastName": "Jadhav"
+    }
+  },
+  "team": [{
+    "members": [{
+      "name": "Oleh Zasadnyy",
+      "photo": "/images/people/oleh_zasadnyy.jpg",
+      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+OlehZasadnyy",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/oleh.zasadnyy",
+        "name": "Facebook"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/ozasadnyy",
+        "name": "Twitter"
+      }, {
+        "icon": "website",
+        "link": "http://o.zasadnyy.com/",
+        "name": "Blog"
+      }],
+      "title": "Website and sponsors"
+    }, {
+      "name": "Sofiya Huts",
+      "photo": "/images/people/sofiya_huts.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+SofiaHuts",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/sophie.huts.7",
+        "name": "Facebook"
+      }],
+      "title": "Social and media"
+    }, {
+      "name": "Vitaliy Zasadnyy",
+      "photo": "/images/people/vitaliy_zasadnyy.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
+      "socials": [{
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/zasadnyy",
+        "name": "Linkedin"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/zasadnyy",
+        "name": "Twitter"
+      }, {
+        "icon": "website",
+        "link": "http://v.zasadnyy.com/",
+        "name": "Blog"
+      }],
+      "title": "Speakers"
+    }, {
+      "name": "Marta Maxymiak",
+      "photo": "/images/people/marta_maxymiak.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/104036874811391520583",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/marta.maxymiak",
+        "name": "Facebook"
+      }],
+      "title": "Party and happiness"
+    }, {
+      "name": "Ostap Andrusiv",
+      "photo": "/images/people/ostap_andrusiv.jpg",
+      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://google.com/+OstapAndrusiv",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/ostap.andrusiv",
+        "name": "Facebook"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/p1f",
+        "name": "Twitter"
+      }, {
+        "icon": "website",
+        "link": "http://andrusiv.com/",
+        "name": "Blog"
+      }],
+      "title": "Sponsors"
+    }, {
+      "name": "Vasylyna Mytsak",
+      "photo": "/images/people/vasylyna_mytsak.jpg",
+      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+ВасилинаМицак",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/vasylyna.mytsak",
+        "name": "Facebook"
+      }],
+      "title": "Party and happiness"
+    }, {
+      "name": "Volodya Karpliuk",
+      "photo": "/images/people/volodya_karpliuk.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+VolodyaKarpliuk23",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/volodya.karpluk",
+        "name": "Facebook"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/keyv23",
+        "name": "Twitter"
+      }],
+      "title": "Speakers"
+    }, {
+      "name": "Diana Pinchuk",
+      "photo": "/images/people/diana_pinchuk.jpg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+DianaPinchuk",
+        "name": "Google+"
+      }, {
+        "icon": "facebook",
+        "link": "https://www.facebook.com/diana.pinchuk.9",
+        "name": "Facebook"
+      }],
+      "title": "Social and media"
+    }],
+    "title": "Core Team"
+  }, {
+    "members": [{
+      "name": "Ihor Dvoretskyi",
+      "photo": "/images/people/ihor_dvoretskyi.jpg",
+      "photoUrl": "",
+      "socials": [{
+        "icon": "facebook",
+        "link": "https://www.facebook.com/idvoretskyi",
+        "name": "Facebook"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/idvoretskyi",
+        "name": "Twitter"
+      }],
+      "title": "Cloud stream"
+    }, {
+      "name": "Dmytro Danylyk",
+      "photo": "/images/people/dmytro_danylyk.jpg",
+      "photoUrl": "",
+      "socials": [{
+        "icon": "gplus",
+        "link": "https://plus.google.com/+DmytroDanylyk",
+        "name": "Google+"
+      }, {
+        "icon": "twitter",
+        "link": "https://twitter.com/dmytrodanylyk",
+        "name": "Twitter"
+      }, {
+        "icon": "website",
+        "link": "http://www.dmytrodanylyk.com/#/about",
+        "name": "Website"
+      }],
+      "title": "Android Stream"
+    }],
+    "title": "Program Committee"
+  }],
+  "tickets": {
+    "elements": [{
+      "currency": "₹",
+      "ends": "Sept 25",
+      "info": "150 Seats only, first come first serve basis",
+      "name": "Regular",
+      "price": 150,
+      "soldOut": false,
+      "starts": "Sept 15"
+    }],
+    "url": "https://2event.com/events/800690"
+  },
+  "triggers": {
+    "images": false
+  },
+  "videos": [{
+    "speakers": "Jakub Škvára",
+    "thumbnail": "/images/sessions/116.JPG",
+    "title": "Polymer vs other libraries",
+    "youtubeId": "-UEURYYVCmg"
+  }, {
+    "speakers": "Mandy Waite",
+    "thumbnail": "/images/sessions/109.JPG",
+    "title": "Scalable Microservices with gRPC, Kubernetes, and Containers",
+    "youtubeId": "BZ-uR8LQRkA"
+  }, {
+    "speakers": "Mandy Waite",
+    "thumbnail": "/images/sessions/110.JPG",
+    "title": "Google Cloud Platform End to End: How we built 'Cloud Spin'",
+    "youtubeId": "n-H6jYnL32U"
+  }, {
+    "speakers": "Mateusz Herych",
+    "thumbnail": "/images/sessions/102.JPG",
+    "title": "How can Android Backup break your app",
+    "youtubeId": "89wvLLc25AY"
+  }, {
+    "speakers": "Alex Pazhyn",
+    "thumbnail": "/images/sessions/113.JPG",
+    "title": "Material Design. Custom Branding",
+    "youtubeId": "3u8864j4g24"
+  }, {
+    "speakers": "Viktor Zozuliak",
+    "thumbnail": "/images/sessions/122.JPG",
+    "title": "Service Worker - Native Apps Experience For The Web",
+    "youtubeId": "szLFi1aO398"
+  }, {
+    "speakers": "Said Tahsin Dane",
+    "thumbnail": "/images/sessions/101.JPG",
+    "title": "Material Design on Custom Views",
+    "youtubeId": "nFZxAIi8n7I"
+  }, {
+    "speakers": "Ihor Dvoretskyi",
+    "thumbnail": "/images/sessions/135.JPG",
+    "title": "The Cloud Convergence: OpenStack and Kubernetes",
+    "youtubeId": "3zbxUcyiP8Y"
+  }, {
+    "speakers": "Juarez Filho",
+    "thumbnail": "/images/sessions/120.JPG",
+    "title": "Firebase Adventures - Real time platform for your apps",
+    "youtubeId": "uz4vA21lqoE"
+  }, {
+    "speakers": "Anton Minashkin",
+    "thumbnail": "/images/sessions/134.JPG",
+    "title": "Data Binding. Next big thing?",
+    "youtubeId": "GYwvQ0YAPo4"
+  }, {
+    "speakers": "Hallade Xavier",
+    "thumbnail": "/images/sessions/112.JPG",
+    "title": "Mastering the NDK with Android Studio 1.3+ and the gradle-experimental plugin",
+    "youtubeId": "GbTe0BTuNaU"
+  }, {
+    "speakers": "Jana Moudrá",
+    "thumbnail": "/images/sessions/115.JPG",
+    "title": "Let's play Dart!",
+    "youtubeId": "DoUATBQcihI"
+  }, {
+    "speakers": "Valentyn Shybanov",
+    "thumbnail": "/images/sessions/106.JPG",
+    "title": "Using GoLang for building micro-service architecture in Google Cloud Platform",
+    "youtubeId": "euROYVOJYuI"
+  }, {
+    "speakers": "Semih Yagcioglu",
+    "thumbnail": "/images/sessions/124.JPG",
+    "title": "Build Your Thing In a Weekend with AngularJS 2.0",
+    "youtubeId": "gHd-0itPpGg"
+  }, {
+    "speakers": "Dawid Ostrowski",
+    "thumbnail": "/images/sessions/125.JPG",
+    "title": "[Keynote] Lean Startup with Google",
+    "youtubeId": "o04aL3IzmcQ"
+  }, {
+    "speakers": "Constantine Mars",
+    "thumbnail": "/images/sessions/133.JPG",
+    "title": "RxJava for Android",
+    "youtubeId": "3LQnqJhGQmI"
+  }, {
+    "speakers": "Roman Mazur",
+    "thumbnail": "/images/sessions/104.JPG",
+    "title": "Power of Android Shell",
+    "youtubeId": "a4InM2VhAvQ"
+  }, {
+    "speakers": "Dmytro Danylyk",
+    "thumbnail": "/images/sessions/103.JPG",
+    "title": "Planning Android Screens",
+    "youtubeId": "gQbjjOE2yF4"
+  }, {
+    "speakers": "Dima Maleev",
+    "thumbnail": "/images/sessions/108.JPG",
+    "title": "V8 under the hood",
+    "youtubeId": "Oazl4fx-X68"
+  }, {
+    "speakers": "Kseniia Shumelchyk",
+    "thumbnail": "/images/sessions/117.JPG",
+    "title": "Bluetooth Low Energy and iBeacon development for Android",
+    "youtubeId": "tEUmmZDwHDg"
+  }, {
+    "speakers": "Maciej Górski",
+    "thumbnail": "/images/sessions/114.JPG",
+    "title": "Continuous Delivery with Ease",
+    "youtubeId": "b-4upgkYdZo"
+  }, {
+    "speakers": "Michał Tajchert",
+    "thumbnail": "/images/sessions/105.JPG",
+    "title": "Hijacking notification actions - lets respond to your messages!",
+    "youtubeId": "2rT4Us7cFDg"
+  }, {
+    "speakers": "Roman Herasymenko",
+    "thumbnail": "/images/sessions/111.JPG",
+    "title": "New security model in Marshmallow",
+    "youtubeId": "lFpb-LaYDvs"
+  }, {
+    "speakers": "Valentyn Shybanov",
+    "thumbnail": "/images/sessions/107.JPG",
+    "title": "Angular2: Reasoning behind technical decisions",
+    "youtubeId": "V7GCjnfsOCE"
+  }, {
+    "speakers": "",
+    "thumbnail": "/images/sessions/140.JPG",
+    "title": "Fireside Chat",
+    "youtubeId": "8kXNWOhEAhE"
+  }, {
+    "speakers": "Alexey Rybakov",
+    "thumbnail": "/images/sessions/119.JPG",
+    "title": "Android TV Development",
+    "youtubeId": "SoXb9cXnJhc"
+  }, {
+    "speakers": "Buşra Deniz",
+    "thumbnail": "/images/sessions/123.JPG",
+    "title": "Google WebRTC on Mobile",
+    "youtubeId": "YWaOdwCenZM"
+  }]
+}

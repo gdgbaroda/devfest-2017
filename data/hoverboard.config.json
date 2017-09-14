@@ -30,7 +30,7 @@
     "backgroundColor": "#673AB7"
   },
   "hashtag": "DevFest17",
-  "navigation_backup": [
+  "navigation": [
     {
       "route": "home",
       "permalink": "/",

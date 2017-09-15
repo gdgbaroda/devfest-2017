@@ -105,11 +105,13 @@
             }
 
             .custom-date {
-                font-size: 50px;
-                font-weight: 200;
+              font-family: 'Product Sans';
+              font-size: 50px;
+              font-weight: 100;
             }
              .custom-item {
-                 font-size: 25px;
+               font-family: 'Product Sans';
+               font-size: 25px;
              }
 
             @media (min-width: 868px) {
@@ -177,20 +179,20 @@
             <div class="statistics-block" flex vertical>
 
                 <div class="statistics-row" flex layout vertical justified>
-                    <h1 class="custom-date">
-                        <iron-icon class="big-icon" icon="hoverboard:calendar"></iron-icon>
-                        1st October 2017
-                    </h1>
+                    <div class="custom-date">
+                        <!--<iron-icon class="big-icon" icon="hoverboard:calendar"></iron-icon>-->
+                        <span class="">1st October</span>
+                    </div>
                 </div>
                 <!--<div class="statistics-row" flex layout horizontal center>-->
                     <!--<h1 class="custom-item">8 Sessions</h1>-->
                     <!--<h1 class="custom-item">150 Attendees</h1>-->
                 <!--</div>-->
                 <div class="statistics-row" flex layout vertical justified>
-                    <h1 class="custom-item">
-                        <iron-icon class="big-icon" icon="hoverboard:location"></iron-icon>
-                        {$ location.address $}
-                    </h1>
+                    <div class="custom-item icon">
+                        @
+                        <span class=""> {$ location.address $}</span>
+                    </div>
                 </div>
 
                 <!--<div class="statistics-row" flex-->

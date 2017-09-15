@@ -143,7 +143,7 @@
         {
           "startTime": "11:00",
           "endTime": "11:40",
-          "sessions": [{"items": [901]}, {"extend":2, "items": [902]}]
+          "sessions": [{"items": [901]}]
         },
         {
           "startTime": "11:50",
@@ -176,8 +176,8 @@
           "sessions": [{"items": [906]}]
         },
         {
-          "startTime": "18:00",
-          "endTime": "18:30",
+          "startTime": "17:00",
+          "endTime": "17:30",
           "sessions": [{"items": [907]}]
         }
       ],
@@ -402,8 +402,8 @@
     },
     "hardip": {
       "bio": "",
-      "title": " ",
-      "company": " ",
+      "title": "Android Developer",
+      "company": "Anormaly Labs",
       "companyLogo": "",
       "companyLogoUrl": "",
       "country": "Baroda, India",
@@ -470,9 +470,6 @@
       }
     ],
     "title": "Organizers"
-  }, {
-    "members": [],
-    "title": "Volunteers"
   }],
   "tickets": {
     "elements": [{

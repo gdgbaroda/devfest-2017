@@ -163,17 +163,30 @@
                         </paper-button>
                     </a>
                     <p class="block-subtitle"> {$ aboutBlock.callToAction.howItWas.description $} </p>
-                    <div class="block-cta">
-                        <paper-button class="animated icon-right"
-                                        on-tap="_playVideo"
-                                        ga-on="click"
-                                        ga-event-category="video"
-                                        ga-event-action="watch"
-                                        ga-event-label="about block - {$ aboutBlock.callToAction.howItWas.label $}">
-                            <span class="cta-label">{$  aboutBlock.callToAction.howItWas.label $}</span>
-                            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-                        </paper-button>
-                    </div>
+                    <a class="block-cta"
+                       href="{$ aboutBlock.callToAction.howItWas.link $}"
+                       ga-on="click"
+                       ga-event-category="video"
+                       ga-event-action="watch"
+                       ga-event-label="about block - {$ aboutBlock.callToAction.howItWas.label $}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                      <paper-button class="animated icon-right">
+                        <span class="cta-label">{$ aboutBlock.callToAction.howItWas.label $}</span>
+                        <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+                      </paper-button>
+                    </a>
+                    <!--<div class="block-cta">-->
+                        <!--<paper-button class="animated icon-right"-->
+                                        <!--on-tap="_playVideo"-->
+                                        <!--ga-on="click"-->
+                                        <!--ga-event-category="video"-->
+                                        <!--ga-event-action="watch"-->
+                                        <!--ga-event-label="about block - {$ aboutBlock.callToAction.howItWas.label $}">-->
+                            <!--<span class="cta-label">{$  aboutBlock.callToAction.howItWas.label $}</span>-->
+                            <!--<iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>-->
+                        <!--</paper-button>-->
+                    <!--</div>-->
             </div>
 
             <div class="statistics-block" flex vertical>

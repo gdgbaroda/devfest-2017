@@ -106,6 +106,7 @@
       "howItWas": {
         "description": "Every year GDGs across the globe bring to you a mesmerizing experience of learning and sharing.",
         "label": "See how it was in 2016",
+        "link": "https://photos.google.com/album/AF1QipMGdN5p85K7vrqCkrQaO4OW0OQAAtdKxGD9HzZ9",
         "youtubeId": "TdpbgRgz6eE"
       }
     },
@@ -130,7 +131,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to conference, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "ticketsDetails": "The ticket includes all access including speaker sessions, networking area and all meals during the course of the event. All the ticket amount collected will be donated to the National Defence Fund.",
     "soldOut": "Sold out"
   },
   "partnersBlock": {
@@ -171,7 +172,7 @@
     "description": "This year's festival built lots of excitement. Check out photos from featured talks, networking sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://photos.google.com/album/AF1QipMGdN5p85K7vrqCkrQaO4OW0OQAAtdKxGD9HzZ9"
+      "url": "https://photos.google.com/album/AF1QipMGdN5p85K7vrqCkrQaO4OW0OQAAtdKxGD9HzZ9"
     }
   },
   "mapBlock": {

@@ -1,48 +1,4 @@
 {
-  "blog": {
-    "list": {
-      "c4p": {
-        "backgroundColor": "#3647a5",
-        "brief": "GDG DevFest Ukraine was announced, for the sixth year in a row, the conference will bring together 900 developers, managers and...",
-        "image": "/images/posts/c4p.jpg",
-        "published": "2017-02-12",
-        "source": "/data/posts/2017-02-12-c4p.md",
-        "title": "We're looking for speakers"
-      },
-      "dfua-summary": {
-        "backgroundColor": "#ffc107",
-        "brief": "GDG DevFest Ukraine 2016",
-        "image": "/images/posts/summary16_1.jpg",
-        "published": "2016-09-10",
-        "source": "/data/posts/2016-09-10-dfua-summary.md",
-        "title": "DevFest Ukraine rocked - SUMMARY"
-      },
-      "dfua17-announced": {
-        "backgroundColor": "#2196F3",
-        "brief": "It is official. GDG DevFest Ukraine 2017 is going to take place in Lviv, on October 13-14.",
-        "image": "/images/posts/dfua17-announced.jpg",
-        "published": "2017-02-06",
-        "source": "/data/posts/2017-02-06-dfua17-announced.md",
-        "title": "Announcing GDG DevFest Ukraine 2017"
-      },
-      "thank-you": {
-        "backgroundColor": "#5a7785",
-        "brief": "Our team wants to thank one more time our partners, who made GDG DevFest Ukraine 2016 possible...",
-        "image": "/images/posts/thankyou_2.jpg",
-        "published": "2016-09-29",
-        "source": "/data/posts/2016-09-29-thank-you.md",
-        "title": "Thank you all for your support"
-      },
-      "what-to-do-in-lviv": {
-        "backgroundColor": "#009688",
-        "brief": "Ukrainian city of Lviv is no doubt one of the most charming and yet not well-known parts of Ukraine.",
-        "image": "/images/posts/lviv1.jpg",
-        "published": "2016-08-20",
-        "source": "/data/posts/2016-08-20-what-to-do-in-lviv.md",
-        "title": "What to do in Lviv"
-      }
-    }
-  },
   "featuredSessions": {
     "9eZwm8qA5pYXzUSp1rN9ExS1aFq2": {
       "109": true,
@@ -249,7 +205,7 @@
       "tags": ["Web", "Servers", "Security", "TLS"]
     },
     "906": {
-      "title": "Adding Animations to your Apps",
+      "title": "Animation Matters 101",
       "complexity": "Beginner",
       "description": "Animations can add subtle visual cues that notify users about what's going on in your app and improve their mental model of your app's interface. We'll understand how we can get started with using animations in our own apps.",
       "language": "English",
@@ -401,8 +357,8 @@
       ]
     },
     "hardip": {
-      "bio": "",
-      "title": "Android Developer",
+      "bio": "I am Founder, Developer and quite sometimes Maidservant at Anormaly Labs. I love exploring Android and did some dabbling with NodeJS, AngularJS (Not very Proud), Laravel, etc. Besides that I have involvement with many programming languages on \"Hello World!\" basis. In my plenteous time, I usually sketch, eat and learn discrete unfitting talents like Solving Rubik's Cube, Daydreaming and Touching my nose with my tongue. You can hit it off with me if you're interested in Programming, Design Thinking, Anime/Manga and Drawing/Art.",
+      "title": "Founder",
       "company": "Anormaly Labs",
       "companyLogo": "",
       "companyLogoUrl": "",
@@ -478,7 +434,7 @@
       "info": "We have 150 Seats only, first come first serve basis",
       "name": "Early Bird",
       "price": 99,
-      "soldOut": false,
+      "soldOut": true,
       "starts": ""
     }],
     "url": "https://www.instamojo.com/bankerrahul/gdg-devfest-baroda-2017/"

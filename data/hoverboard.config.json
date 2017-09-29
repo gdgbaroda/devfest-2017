@@ -104,17 +104,17 @@
   },
   "location": {
     "short": "Baroda, Gujarat, IN",
-    "address": "Hotel Express Towers, Baroda",
+    "address": "Four Points by Sheraton, Baroda",
     "pointer": {
-      "latitude": 22.310311,
-      "longitude": 73.169152,
+      "latitude": 22.323494,
+      "longitude": 73.1850323,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 22.3091022,
-      "longitude": 73.17126
+      "latitude": 22.323494,
+      "longitude": 73.1850323
     },
-    "description": "Hotel Express Towers is right at the heart of the city, Alkapuri, and is close to the railway and state transport depots."
+    "description": ""
   },
   "mediaQueries": {
     "xs": {

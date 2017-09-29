@@ -102,39 +102,44 @@
           "sessions": [{"items": [901]}]
         },
         {
-          "startTime": "11:50",
-          "endTime": "12:30",
+          "startTime": "11:40",
+          "endTime": "12:20",
           "sessions": [{"items": [902]}]
         },
         {
-          "startTime": "12:50",
-          "endTime": "13:30",
+          "startTime": "12:20",
+          "endTime": "13:10",
           "sessions": [{"items": [903]}]
         },
         {
-          "startTime": "13:30",
-          "endTime": "14:15",
+          "startTime": "13:00",
+          "endTime": "13:45",
           "sessions": [{"items": [802]}]
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "sessions": [{"items": [803]}]
         },
         {
           "startTime": "14:30",
           "endTime": "15:10",
-          "sessions": [{"items": [904]}]
-        },
-        {
-          "startTime": "15:30",
-          "endTime": "16:10",
           "sessions": [{"items": [905]}]
         },
         {
-          "startTime": "16:20",
-          "endTime": "17:00",
+          "startTime": "15:10",
+          "endTime": "15:50",
           "sessions": [{"items": [906]}]
         },
         {
-          "startTime": "17:00",
+          "startTime": "15:50",
+          "endTime": "16:40",
+          "sessions": [{"items": [904]}]
+        },
+        {
+          "startTime": "16:40",
           "endTime": "17:30",
-          "sessions": [{"items": [907]}]
+          "sessions": [{"items": [804]}]
         }
       ],
       "tracks": [{
@@ -154,6 +159,18 @@
       "icon": "lunch",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Lunch"
+    },
+    "803": {
+      "description": "",
+      "icon": "",
+      "image": "",
+      "title": "Special Session"
+    },
+    "804": {
+      "description": "",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title": "High Tea & networking"
     },
     "900": {
       "title": "Keynote",
